@@ -1,0 +1,132 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Province>
+@{
+    ViewBag.Title = "AnaSayfa";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <!-- ***** Header Area End ***** -->
+
+    <div class="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-text header-text">
+                        <h6>Kullanıcıların Deneyimlerinizi paylaşmanız için bir platform</h6>
+                        <h2>Yerleşim Bilgi Platformu</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <form id="search-form" name="ara" method="post" role="search" action="/Ara/liste/">
+                        <div class="row">
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="city" class="form-select" aria-label="Area" id="city" onchange="this.form.click()">
+                                        <option selected>İl Seçiniz</option>
+                                        @foreach (var item in Model)
+                                        {
+                                            <option value="@item.ProvinceID">@item.ProvinceName</option>
+                                        }
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="district" class="form-select" aria-label="Area" id="district" onchange="this.form.click()">
+                                        <option selected>İl Seçiniz</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="NeighbourhoodID" class="form-select" id="NeighbourhoodID" onchange="this.form.click()">
+                                        <option selected>Mahalle Seçiniz</option>
+                                    </select>
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3">
+                                <fieldset>
+                                    <button class="main-button" id="ara" name="ara"><i class="fa fa-search"></i>Ara</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+        $("#city").change(function () {
+            $("#district").empty();
+            var city = $("#city").val();
+
+            $.ajax({
+                url: '@Url.Action("GetDistricts","Ara")',
+                type: "POST",
+                dataType: "json",
+                data: { cityId: city },
+                success: function (data) {
+                    $("#district").append('<option value="0">İlçe Seçiniz</option>');
+                    $.each(data, function () {
+                        $('#district').append('<option value="' + this.DistrictID + '">' + this.DistrictName + '</option>');
+                    });
+                }
+            });
+        });
+</script>
+<script type="text/javascript">
+    $("#district").change(function () {
+        $("#NeighbourhoodID").empty();
+        var dis = $("#district").val();
+
+
+        $.ajax({
+                url: '@Url.Action("mahgetir", "Ara")',
+                type: "POST",
+                dataType: "json",
+                data: { ilceId: dis },
+            success: function (data) {
+                $("#NeighbourhoodID").append('<option value="0">Mahalle Seçiniz</option>');
+                    $.each(data, function () {
+                        $('#NeighbourhoodID').append('<option value="' + this.NeighbourhoodID + '">' + this.NeighbourhoodName + '</option>');
+                    });
+                }
+            });
+        });
+</script>
+@*<script type="text/javascript">
+        $("#ara").click(function () {
+            $("#ara").empty();
+            var mah = $("#mah").val();
+            $.ajax({
+                url: '@Url.Action("Liste","Ara")',
+                data: { mahid: mah },
+                type: "GET",
+                });
+            });
+    </script>*@

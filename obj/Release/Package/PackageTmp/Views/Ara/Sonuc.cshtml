@@ -1,0 +1,39 @@
+﻿@model IEnumerable<EntityLayer.Concrete.User>
+@{
+    ViewBag.Title = "Sonuc";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<br /><br /><br /><br /><br />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="/NewFolder2/styles.css">
+</head>
+<body>
+    <!--start wrapper-->
+    @foreach (var item in Model)
+    {
+    <div id="wrapper">
+        <div id="body">
+            <div id="container">
+                <div id="content">
+                    <div class="item">
+                        <div class="orange-box-container">
+                            <img src="@item.UserImage" style="height:200%;width:100%;" /><br /><br />
+
+                            <h1>Yazan Kişi : @item.UserName</h1>
+                            <p>@(((DateTime)item.Comments.CommentDate).ToString("dd-MMMM-yyyy"))</p><br />
+
+
+                            <p>@item.Comments.CommentContents</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    }
+    
+</body>
+</html>

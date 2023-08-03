@@ -1,0 +1,80 @@
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migrationupdate.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.updatemigration.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd3.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd4.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd5.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd6.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig7ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migr1ad.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig1.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig2.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmigra1.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admigra2.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admigra3.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd4.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd5.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd6.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admig4.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig5.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add2migration.resources
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migrationupdate.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.updatemigration.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd3.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd4.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd5.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migradd6.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig4ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig5ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig6ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig7ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig8ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.mig9ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migr1ad.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig1.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig2.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmigra1.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admigra2.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admigra3.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd4.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd5.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.migadd6.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.admig4.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.addmig5.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.Migrations.add2migration.resources
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.GenerateResource.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CopyComplete
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

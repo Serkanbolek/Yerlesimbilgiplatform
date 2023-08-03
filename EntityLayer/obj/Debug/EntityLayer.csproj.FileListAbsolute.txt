@@ -1,0 +1,24 @@
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.AssemblyReference.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.csproj.CopyComplete
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\EntityLayer\obj\Debug\EntityLayer.pdb

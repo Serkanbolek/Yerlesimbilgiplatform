@@ -1,0 +1,36 @@
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\Serkan Bölek\source\repos\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\BusinessLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.dll
+C:\Users\serka\OneDrive\Masaüstü\Yerleşimbilgiplatformu1\BusinessLayer\obj\Debug\BusinessLayer.pdb

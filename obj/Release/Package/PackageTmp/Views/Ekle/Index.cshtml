@@ -1,0 +1,169 @@
+﻿@model EntityLayer.Concrete.User
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<body style="background-image: url('../../NewFolder1/pexels-pixabay-534151.png'); height: auto; width: auto; ">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+    @using (Html.BeginForm("Index", "Ekle", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <h3><label style="color:white">İsim Soyisim</label></h3>
+        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control", required = "required" })
+        @*@Html.ValidationMessageFor(x => x.HeadingName)*@
+        <h3><label style="color:white">E-mail adresi</label></h3>
+        @Html.TextBoxFor(x => x.UserMail, new { @class = "form-control", required = "required" })
+        <h3><label style="color:white">Ev Hakkında</label></h3>
+        @Html.TextAreaFor(x => x.Comments.CommentContents, new { @class = "form-control", required = "required" })
+        <h3><label style="color:white">Resim Yükle</label></h3>
+        @Html.TextBox("UserImage", "", new { @type = "file", @name = "UserImage", @required = "required", @class = "form-control", accept = ".jpg,.png.,.jpeg" })<br /><br />
+
+        <select name="city" class="form-control" aria-label="Area" id="city" required="required" onchange="this.form.click()">
+            <option selected>İl Seçiniz</option>
+            @foreach (var item in ViewBag.pr)
+            {
+                <option value="@item.ProvinceID">@item.ProvinceName</option>
+            }
+        </select><br />
+        <fieldset>
+            <select name="district" class="form-control" aria-label="Area" required id="district" onchange="this.form.click()">
+                <option selected>İlçe Seçiniz</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <select name="NeighbourhoodID" class="form-control" aria-label="Area" required id="NeighbourhoodID" onchange="this.form.click()">
+                <option selected>Mahalle Seçiniz</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <select name="StreetID" class="form-control" aria-label="Area" required id="StreetID" onchange="this.form.click()">
+                <option>Sokak Seçiniz</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <select name="BuildingNumbers" id="BuildingNumbers" class="form-control" required aria-label="Area" onchange="this.form.click()">
+                <option>Bina No Seçiniz</option>
+                <option>1</option>
+                <option>1/B</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>5/B</option>
+                <option>6</option>
+                <option>6/B</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>9/B</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>20/B</option>
+            </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <select name="Apartmentnumbers" id="Apartmentnumbers" class="form-control" required aria-label="Area" onchange="this.form.click()">
+                <option>Kapı No Seçiniz</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+            </select><br />
+        </fieldset>
+        <input type="submit" class="btn btn-success btn-block" value="Kaydet" />
+
+    }
+
+</body>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+        $("#city").change(function () {
+            $("#district").empty();
+            var city = $("#city").val();
+
+            $.ajax({
+                url: '@Url.Action("GetDistricts","Ekle")',
+                type: "POST",
+                dataType: "json",
+                data: { cityId: city },
+                success: function (data) {
+                    $("#district").append('<option value="0">İlçe Seçiniz</option>');
+                    $.each(data, function () {
+                        $('#district').append('<option value="' + this.DistrictID + '">' + this.DistrictName + '</option>');
+                    });
+                }
+            });
+        });
+</script>
+<script type="text/javascript">
+    $("#district").change(function () {
+        $("#NeighbourhoodID").empty();
+        var dis = $("#district").val();
+
+
+        $.ajax({
+                url: '@Url.Action("mahgetir", "Ekle")',
+                type: "POST",
+                dataType: "json",
+                data: { ilceId: dis },
+            success: function (data) {
+                $("#NeighbourhoodID").append('<option value="0">Mahalle Seçiniz</option>');
+                    $.each(data, function () {
+                        $('#NeighbourhoodID').append('<option value="' + this.NeighbourhoodID + '">' + this.NeighbourhoodName + '</option>');
+                    });
+                }
+            });
+        });
+</script>
+<script type="text/javascript">
+    $("#NeighbourhoodID").change(function () {
+        $("#StreetID").empty();
+        var NeighbourhoodID = $("#NeighbourhoodID").val();
+             $.ajax({
+                url: '@Url.Action("Liste", "Ekle")',
+                type: "POST",
+                dataType: "json",
+                 data: { NeighbourhoodID: NeighbourhoodID },
+                 success: function (data) {
+                     $("#StreetID").append('<option value="0">Sokak Seçiniz</option>');
+                     $.each(data, function () {
+                         $('#StreetID').append('<option value="' + this.StreetID + '">' + this.StreetName + '</option>');
+                     });
+                 }
+                });
+            });
+</script>

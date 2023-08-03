@@ -1,0 +1,49 @@
+﻿@model IEnumerable<EntityLayer.Concrete.User>
+@{
+    ViewBag.Title = "Göster";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<!DOCTYPE html>
+<html style="background-color:black" lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" lang="en" content="open source x/html and css templates">
+    <meta name="author" content="mlp design">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="/NewFolder2/styles.css">
+</head>
+<body>
+    <br /><br /><br /><br /><br />
+    <div style="background-color:#808080" id="wrapper">
+        <div style="background-color:#808080" id="body">
+            <div style="background-color:#808080" id="container">
+                <div style="background-color:#808080" id="content">
+                    <div style="background-color:#808080" class="item">
+                        <div style="background-color:#808080" class="row tm-mb-90 tm-gallery">
+                            @foreach (var item in Model)
+                            {
+                                <div style="height:350px; width:300px;">
+                                    <figure class="effect-ming tm-video-item">
+                                        <img style="height:200px;width:300px;" src="@item.UserImage" alt="Image" class="img-fluid">
+                                        <figcaption class="d-flex align-items-center justify-content-center">
+                                            <h5 style="margin-top:10px; color:black">@item.UserName</h5>
+                                        </figcaption>
+                                    </figure><br />
+                                    <div>
+                                        <span class="tm-text-gray-light" style="color:black;height:10px;">@(((DateTime)item.Comments.CommentDate).ToString("dd-MMMM-yyyy"))</span><br />
+                                        <span><a style="margin-top:0%" class="btn btn-success btn-block" href="/Ara/Sonuc/@item.UserID">Göster</a></span>
+                                    </div>
+                                </div>}
+                        </div>
+                    </div>
+                </div>
+                <h5 style="color:white;background-color:black">Not : Burada gösterilenler sokaklara göre listeleme yapmaktadır bilginize sunarım.</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+

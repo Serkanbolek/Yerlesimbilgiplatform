@@ -1,0 +1,134 @@
+﻿@model IEnumerable<EntityLayer.Concrete.Street>
+@{
+    ViewBag.Title = "liste";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+
+<body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+        <div class="preloader-inner">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+    <!-- ***** Header Area Start ***** -->
+    <!-- ***** Header Area End ***** -->
+
+    <div class="main-banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-text header-text">
+                        <h6>Kullanıcıların Deneyimlerinizi paylaşmanız için bir platform</h6>
+                        <h2>Yerleşim Bilgi Platformu</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <form id="search-form" name="ara" method="get" role="search" action="/Ara/Göster/">
+                        <div class="row">
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="StreetID" class="form-select" aria-label="Area" id="StreetID" onchange="this.form.click()">
+                                        <option>Mahalle Seçiniz</option>
+                                        @foreach (var item in Model)
+                                        {
+                                            <option value="@item.StreetID">@item.StreetName</option>
+                                        }
+                                    </select><br />
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="BuildingNumbers" id="BuildingNumbers" aria-label="Area" class="form-select" onchange="this.form.click()">
+                                        <option>Bina No Seçiniz</option>
+                                        <option>1</option>
+                                        <option>1/B</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>5/B</option>
+                                        <option>6</option>
+                                        <option>6/B</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>9/B</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                        <option>20/B</option>
+                                    </select><br />
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3 align-self-center">
+                                <fieldset>
+                                    <select name="Apartmentnumbers" id="Apartmentnumbers" aria-label="Area" class="form-select" onchange="this.form.click()">
+                                        <option>Kapı No Seçiniz</option>
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                        <option>5</option>
+                                        <option>6</option>
+                                        <option>7</option>
+                                        <option>8</option>
+                                        <option>9</option>
+                                        <option>10</option>
+                                        <option>11</option>
+                                        <option>12</option>
+                                        <option>13</option>
+                                        <option>14</option>
+                                        <option>15</option>
+                                        <option>16</option>
+                                        <option>17</option>
+                                        <option>18</option>
+                                        <option>19</option>
+                                        <option>20</option>
+                                    </select><br />
+                                </fieldset>
+                            </div>
+                            <div class="col-lg-3">
+                                <fieldset>
+                                    <button class="main-button" id="ara" name="ara"><i class="fa fa-search"></i>Ara</button>
+                                </fieldset>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+@*<script type="text/javascript">
+        $("#ara").click(function () {
+            $("#ara").empty();
+            var mah = $("#mah").val();
+            $.ajax({
+                url: '@Url.Action("Liste","Ara")',
+                data: { mahid: mah },
+                type: "GET",
+                });
+            });
+    </script>*@
